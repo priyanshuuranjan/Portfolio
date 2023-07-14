@@ -72,7 +72,7 @@ const Sidebar = () => {
         />
       </nav>
 
-      {/*  social  media links  */}
+      {/*  All social  media links  */}
       <ul>
         <li>
           <a
