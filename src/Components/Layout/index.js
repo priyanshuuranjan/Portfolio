@@ -1,15 +1,3 @@
-// import './index.scss'
-// import Sidebar from '../Sidebar'
-
-// import React from 'react'
-
-// export default function index() {
-//   return (
-//     <>
-//       <Sidebar />
-//     </>
-//   )
-// }
 import { Outlet } from 'react-router-dom'
 import Sidebar from '../Sidebar/'
 import './index.scss'

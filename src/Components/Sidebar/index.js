@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
-  faTwitter,
+  faYoutube,
   faSkype,
 } from '@fortawesome/free-brands-svg-icons'
 import {
@@ -20,31 +20,30 @@ import {
 import { Link, NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
-  const [showNav, setShowNav] = useState(false)
+  const [showNav, setShowNav] = useState(false);
 
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/" onClick={() => setShowNav(false)}>
+      <Link 
+        className="logo"
+        to="/"
+        onClick={() => setShowNav(false)}>
         <img src={LogoS} alt="Logo" />
         <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
-        <NavLink
+        <NavLink 
           exact="true"
           activeclassname="active"
           to="/"
-          onClick={() => setShowNav(false)}
-        >
-          {/* navbar icons  */}
-
+          onClick={() => setShowNav(false)}>
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
-        <NavLink
+        <NavLink 
           activeclassname="active"
           className="about-link"
           to="/about"
-          onClick={() => setShowNav(false)}
-        >
+          onClick={() => setShowNav(false)}>
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
         <NavLink
@@ -63,20 +62,17 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
-        <FontAwesomeIcon
+        <FontAwesomeIcon 
           onClick={() => setShowNav(false)}
           icon={faClose}
           color="#ffd700"
           size="3x"
-          className="close-icon"
-        />
+          className='close-icon' />
       </nav>
-
-      {/*  All social  media links  */}
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/priyanshu-ranjan-741462201/"
+            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
             target="_blank"
             rel="noreferrer"
           >
@@ -89,7 +85,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/priyanshuuranjan"
+            href="https://github.com/bobangajicsm"
             target="_blank"
             rel="noreferrer"
           >
@@ -102,12 +98,12 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://twiter.com/priyanshuu45/"
+            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
             rel="noreferrer"
             target="_blank"
           >
             <FontAwesomeIcon
-              icon={faTwitter}
+              icon={faYoutube}
               color="#4d4d4e"
               className="anchor-icon"
             />
@@ -123,13 +119,12 @@ const Sidebar = () => {
           </a>
         </li>
       </ul>
-      <FontAwesomeIcon
-        onClick={() => setShowNav(true)}
-        icon={faBars}
-        color="#ffd700"
-        size="3x"
-        className="hamburger-icon"
-      />
+      <FontAwesomeIcon 
+          onClick={() => setShowNav(true)}
+          icon={faBars}
+          color="#ffd700"
+          size="3x"
+          className='hamburger-icon' />
     </div>
   )
 }

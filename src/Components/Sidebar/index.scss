@@ -70,21 +70,20 @@
         -webkit-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out;
       }
-      //   ye home likha hua show krega jb hm ishpe hover krenge tb
+
       &:first-child {
         &:after {
           content: 'HOME';
         }
       }
     }
-    //   ye about likha hua show krega text form me ushke upar me hi jb hm ishpe hover krenge tb
+
     a.about-link {
       &:after {
         content: 'ABOUT';
       }
     }
 
-    // ye contact likha hua show krega text form me ushke upar me hi jb hm ishpe hover krenge tb
     a.contact-link {
       &:after {
         content: 'CONTACT';
@@ -103,8 +102,6 @@
       }
     }
   }
-
-  // styling of social media accounts
 
   ul {
     position: absolute;
@@ -134,24 +131,23 @@
   }
 }
 
-.hamburger-icon,
-.close-icon {
+.hamburger-icon, .close-icon {
   display: none;
 }
 
+
 @media screen and (max-width: 1200px) {
-  .nav-bar {
+  .nav-bar { 
     background: transparent;
     position: initial;
     height: auto;
     min-height: auto;
 
-    ul,
-    nav {
+     ul, nav {
       display: none;
-    }
+     }
 
-    nav {
+     nav {
       width: 100%;
       top: 0;
       left: 0;
@@ -175,20 +171,20 @@
         opacity: 1;
         position: initial;
         width: auto;
-        margin-left: 10px;
+        margin-left: 10PX;
       }
 
       a svg {
         opacity: 1 !important;
       }
-    }
+     }
 
-    .hamburger-icon,
-    .close-icon {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-      display: block;
-    }
+     .hamburger-icon,
+     .close-icon {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        display: block;
+     }
   }
 }
