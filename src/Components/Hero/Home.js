@@ -14,12 +14,12 @@ const Home = () => {
           <div className='left top'>
             <h3>WELCOME TO MY WORLD</h3>
             <h1>
-              Hi, I’m <span>Jone Lee</span>
+              Hi, I’m <span>Priyanshu Ranjan</span>
             </h1>
             <h2>
               a
               <span>
-                <Typewriter words={[" Professional Coder.", " Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+                <Typewriter words={[" Professional Coder.", " Web-Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
               </span>
             </h2>
 
