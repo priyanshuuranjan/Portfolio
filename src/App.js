@@ -12,7 +12,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Header />
+       <Header />
       <Home />
       <Features />
       <Portfolio />
