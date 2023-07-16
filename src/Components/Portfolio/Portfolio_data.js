@@ -4,7 +4,7 @@ const Portfolio_data = [
     category: "DEVELOPMENT",
     totalLike: "600",
     title: "The services provide for design ",
-    image: "./image/portfolio-01.jpg",
+    image: "https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg",
   },
   {
     id: 2,
@@ -25,14 +25,14 @@ const Portfolio_data = [
     category: "FIGMA",
     totalLike: "360",
     title: "Mobile app landing design & Services",
-    image: "./image/portfolio-04.jpg",
+    image: "https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg",
   },
   {
     id: 5,
     category: "WEB DESIGN",
     totalLike: "280",
     title: "Design for tecnology & services",
-    image: "./image/portfolio-05.jpg",
+    image: "https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg",
   },
   {
     id: 6,
