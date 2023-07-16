@@ -1,6 +1,6 @@
-//import React, { useState } from "react"
+// import React, { useState } from "react"
 
-//const PopUpBox = () => {
+// const PopUpBox = () => {
 //  const [modal, setModal] = useState(false)
 
 //  const toggleModal = () => {
@@ -32,6 +32,6 @@
 //      )}
 //    </>
 //  )
-//}
+// }
 
-//export default PopUpBox
+// export default PopUpBox
