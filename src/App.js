@@ -6,7 +6,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Resume from "./Components/Resume/Resume";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import Contact from "./Components/Contact/Contact";
-import Footer from "./Components/Footer/Footer";
+// import Footer from "./Components/Footer/Footer";
 import "./App.css";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <Resume />
       <Testimonial />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
