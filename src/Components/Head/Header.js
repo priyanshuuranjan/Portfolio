@@ -40,11 +40,12 @@ const Header = () => {
               <li>
                 <a href="#contact">contact</a>
               </li>
-              {/* <li>
-                <button className="home-btn">BUY NOW</button>
-              </li> */}
+              <li>
+                <button className="home-btn">Download CV</button>
+              </li>
             </ul>
-
+            
+            {/* ye jb hm phn me on krenge tb ye close krne ka option aayega ish liye use kiye hai ishe hm  */}
             <button className="toggle" onClick={() => setMobile(!Mobile)}>
               {Mobile ? (
                 <i className="fas fa-times close home-btn"></i>
