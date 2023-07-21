@@ -28,7 +28,7 @@ const Resume = () => {
                         key={id}
                         title={val.title}
                         year={val.year}
-                        rate={val.rate}
+                        // rate={val.rate}
                         desc={val.desc}
                       />
                     );
@@ -38,7 +38,7 @@ const Resume = () => {
             </div>
             <div className="left">
               <div className="heading">
-                <h4>2019-Present</h4>
+                <h4>2020-Present</h4>
                 <h1>Pojects</h1>
               </div>
 
@@ -50,7 +50,7 @@ const Resume = () => {
                         key={index}
                         title={val.title}
                         year={val.year}
-                        rate={val.rate}
+                        // rate={val.rate}
                         desc={val.desc}
                       />
                     );
