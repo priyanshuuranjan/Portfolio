@@ -50,7 +50,7 @@ const Contact = () => {
                   <img src={contact1} alt='' />
                 </div>
                 <div className='details'>
-                  <h1>Priyanhu Ranjan</h1>
+                  <h1>Priyanhu Ranjan.</h1>
                   <p>An Aspiring Software Engineer</p>
                   <p>I am available for part time freelance work. Connect with me via email and social networks.</p> <br />
                   <p>Phone: +91**********</p>
