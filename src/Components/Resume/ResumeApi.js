@@ -26,7 +26,7 @@ const ResumeApi = [
   {
     id: 4,
     category: "experience",
-    year: "BSE In CSE (2004 - 2008) ",
+    year: "Domain: Web Development | Skills honed: HTML, CSS, React, Bootstrap and Firebase.",
     title: "Complaint Management System",
     desc: "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
     // rate: "4.70/5 ",
