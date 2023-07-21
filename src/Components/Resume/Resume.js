@@ -16,7 +16,7 @@ const Resume = () => {
           <div className="content-section mtop d_flex">
             <div className="left">
               <div className="heading">
-                <h4>2007-2010</h4>
+                <h4>2019-Present</h4>
                 <h1>Education Quality</h1>
               </div>
 
@@ -34,20 +34,6 @@ const Resume = () => {
                     );
                   }
                 })}
-
-                {/*<div className='box btn_shadow'>
-                  <div className='title_content d_flex'>
-                    <div className='title'>
-                      <h2>Personal Portfolio April Fools</h2>
-                      <span>University of DVI (1997 - 2001)</span>
-                    </div>
-                    <div className='rate'>
-                      <button className='btn_shadow '>4.30/5</button>
-                    </div>
-                  </div>
-                  <hr />
-                  <p> The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
-                </div>*/}
               </div>
             </div>
             <div className="left">
