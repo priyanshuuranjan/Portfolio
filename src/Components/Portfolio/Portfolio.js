@@ -10,7 +10,7 @@ const Portfolio = () => {
         <div className='container'>
           <div className='heading text-center '>
             <h4>Projects And Certificates</h4>
-            <h1>My Portfolio</h1>
+            <h1>My Projects</h1>
           </div>
 
           <div className='content grid'>
