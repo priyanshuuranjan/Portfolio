@@ -51,7 +51,7 @@ const Contact = () => {
                   <h1>Priyanhu Ranjan</h1>
                   <p>An Aspiring Software Engineer</p>
                   <p>I am available for part time freelance work. Connect with me via email and social networks.</p> <br />
-                  <p>Phone: +01234567890</p>
+                  <p>Phone: +91 **********</p>
                   <p>Email: admin@example.com</p> <br />
                   <span>FIND WITH ME</span>
                   <div className='button f_flex'>
