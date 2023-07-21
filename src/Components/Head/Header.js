@@ -17,7 +17,7 @@ const Header = () => {
         <div className="container d_flex">
           <div className="logo">
             {/* Navbar logo */}
-            <img src={logo1} alt="" />
+            <img src={logo} alt="" />
           </div>
 
           <div className="navlink">
