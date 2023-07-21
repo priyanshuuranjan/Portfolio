@@ -37,7 +37,7 @@ const ResumeApi = [
     year: "Photography Website ",
     title: "Domain: Web Development | Skills honed: HTML, CSS, JavaScript and Bootstrap. ",
     desc: "Explore our website featuring a delightful array of newborn baby photo frames, available in various styles and designs. Users can effortlessly select multiple frames and place orders, all with the added bonus of being completely free for everyone.",
-    rate: "4.95/5 ",
+    // rate: "4.95/5 ",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const ResumeApi = [
     year: "Works at Plugin Development (2016 - 2020) ",
     title: "Diploma in Computer Science",
     desc: "Discover our comprehensive physiotherapy website, built using React JS, with multiple pages offering a wide range of treatment options. Experience the convenience of video consultations and online booking. Emphasizing natural therapies, we also welcome email inquiries, ensuring seamless communication for optimal care and personalized service.",
-    rate: "5.00/5 ",
+    // rate: "5.00/5 ",
   },
 ];
 
