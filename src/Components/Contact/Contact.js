@@ -54,7 +54,7 @@ const Contact = () => {
                   <h1>Priyanhu Ranjan.</h1>
                   <p>An Aspiring Software Engineer</p>
                   <p>
-                    I am available for part time freelance work. Connect with me
+                    I am available for part-time freelance work. Connect with me
                     via email and social networks.
                   </p>{" "}
                   <br />
