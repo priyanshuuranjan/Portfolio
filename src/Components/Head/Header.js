@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
-import logo from "../pic/logo192.png";
+import logo from "../pic/logo.png";
 // import logo1 from "../pic/logo192.png";
 
 const Header = () => {
