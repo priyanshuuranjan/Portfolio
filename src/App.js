@@ -12,6 +12,7 @@ import "./App.css";
 function App() {
   return (
     <>
+     {/* Routing Part Done Here */}
       <Header />
       <Home />
       <Features />
