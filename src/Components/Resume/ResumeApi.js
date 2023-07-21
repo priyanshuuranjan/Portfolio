@@ -2,24 +2,24 @@ const ResumeApi = [
   {
     id: 1,
     category: "education",
-    year: "University of DVI (1997 - 2001)",
-    title: "Personal Portfolio April Fools",
-    desc: "The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "4.30/5",
+    year: "Lovely Professional University | Phagwara, IN (2020 - Present)",
+    title: "B.Tech. in Computer Science",
+    desc: "Studied Computer Science at LPU College, admitted in 2020. Explored cutting-edge tech, coding, and problem-solving in a dynamic learning environment, preparing for a promising future in the digital world..",
+    // rate: "4.30/5",
   },
   {
     id: 2,
     category: "education",
-    year: "College of Studies (2000 - 2002) ",
-    title: "Examples Of Personal Portfolio",
-    desc: "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+    year: "MS Memorial Public School | Bihar, IN  (2018 - 2020) ",
+    title: "Intermediate | Science",
+    desc: "Study science at MS Memorial Public School for an enriching Intermediate experience. Embrace innovative learning, expert faculty, and a nurturing environment to excel in your academic pursuits and future endeavors.",
     rate: "4.50/5",
   },
   {
     id: 3,
     category: "education",
-    year: "University of Studies (1997 - 2001) ",
-    title: "Tips For Personal Portfolio",
+    year: " MS Memorial Public School |Bihar, IN (2005 - 20017) ",
+    title: "Higher School",
     desc: "If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
     rate: "4.80/5 ",
   },
@@ -47,6 +47,6 @@ const ResumeApi = [
     desc: "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
     rate: "5.00/5 ",
   },
-]
+];
 
-export default ResumeApi
+export default ResumeApi;
