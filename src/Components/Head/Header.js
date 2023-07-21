@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import logo from "../pic/logo.png";
+// import logo1 from "../pic/logo192.png";
 
 const Header = () => {
   // fixed Header
@@ -16,7 +17,7 @@ const Header = () => {
         <div className="container d_flex">
           <div className="logo">
             {/* Navbar logo */}
-            <img src={logo} alt="" />
+            <img src={logo1} alt="" />
           </div>
 
           <div className="navlink">
