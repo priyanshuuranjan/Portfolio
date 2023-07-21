@@ -52,7 +52,7 @@ const Contact = () => {
                   <p>An Aspiring Software Engineer</p>
                   <p>I am available for part time freelance work. Connect with me via email and social networks.</p> <br />
                   <p>Phone: +91 **********</p>
-                  <p>Email: admin@example.com</p> <br />
+                  <p>Email: priyanshumth0808@gmail.com</p> <br />
                   <span>FIND WITH ME</span>
                   <div className='button f_flex'>
                     <button className='btn_shadow'>
