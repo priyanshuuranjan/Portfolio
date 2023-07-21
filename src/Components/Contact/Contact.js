@@ -69,6 +69,8 @@ const Contact = () => {
               </div>
             </div>
 
+            {/* On submiting the contect form these sms were display on home screen of users  */}
+            
             <div className='right box_shodow'>
               <form onSubmit={formSubmit}>
                 <div className='f_flex'>
