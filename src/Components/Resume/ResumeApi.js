@@ -27,9 +27,9 @@ const ResumeApi = [
     id: 4,
     category: "experience",
     year: "BSE In CSE (2004 - 2008) ",
-    title: "Diploma in Web Development",
+    title: "Complaint Management System",
     desc: "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "4.70/5 ",
+    // rate: "4.70/5 ",
   },
   {
     id: 5,
