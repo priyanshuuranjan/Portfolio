@@ -21,6 +21,8 @@ const Contact = () => {
     })
   }
 
+  // On clicking on Submit button in contect form these sms were display on home screen of users
+
   const formSubmit = (event) => {
     event.preventDefault()
     alert(
