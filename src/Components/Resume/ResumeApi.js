@@ -28,7 +28,7 @@ const ResumeApi = [
     category: "experience",
     year: "Domain: Web Development | Skills honed: HTML, CSS, React, Bootstrap and Firebase.",
     title: "Complaint Management System",
-    desc: "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+    desc: "The single-page website enables users to choose and describe hostel-life problems, submitting them for resolution. Data is stored on Firebase, and our management efficiently addresses and resolves these issues.",
     // rate: "4.70/5 ",
   },
   {
