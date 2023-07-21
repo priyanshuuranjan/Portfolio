@@ -37,7 +37,7 @@ const Contact = () => {
       <section className='Contact' id='contact'>
         <div className='container top'>
           <div className='heading text-center'>
-            <h4>CONTACT</h4>
+            {/* <h4>CONTACT</h4> */}
             <h1>Contact With Me</h1>
           </div>
 
@@ -70,7 +70,7 @@ const Contact = () => {
             </div>
 
             {/* On submiting the contect form these sms were display on home screen of users  */}
-            
+
             <div className='right box_shodow'>
               <form onSubmit={formSubmit}>
                 <div className='f_flex'>
