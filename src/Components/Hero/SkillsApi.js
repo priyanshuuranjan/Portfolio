@@ -1,9 +1,7 @@
-const SkillsApi = [
+export const Skills = 
     {
-        id: '1'
+        id: '1',
         category: "skills",
         title: "React",
-        Image: ""
-
+        Image: "./assets/asset 5.png",
     }
-]

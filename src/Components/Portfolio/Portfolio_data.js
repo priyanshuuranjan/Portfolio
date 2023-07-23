@@ -11,7 +11,7 @@ const Portfolio_data = [
     category: "APPLICATION",
     totalLike: "750",
     title: "Mobile app landing design & maintain",
-    image: "./image/portfolio-02.jpg",
+    image: "./pic/hero.png",
   },
   {
     id: 3,
