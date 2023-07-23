@@ -20,9 +20,9 @@ const Card = (props) => {
         </div>
         <div className='category d_flex'>
           <span onClick={toggleModal}>{props.category}</span>
-          <label>
+          {/* <label>
             <i className='far fa-heart'></i> {props.totalLike}
-          </label>
+          </label> */}
         </div>
         <div className='title'>
           <h2 onClick={toggleModal}>{props.title}</h2>
@@ -43,6 +43,7 @@ const Card = (props) => {
             <div className='modal-text right'>
               <span>Featured - Design</span>
               <h1>{props.title}</h1>
+              <h2>{props.des}</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
               <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
               <div className='button f_flex mtop'>
