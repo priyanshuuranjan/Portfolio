@@ -66,9 +66,9 @@ const Home = () => {
                   {skills.map((skill) => (
                     <img
                       src={skill.img}
-                      alt={`skill-${skill.id}`}
+                      alt={skill.id}
                       key={skill.id}
-                      style={{ margin: "10px" }}
+                      style={{ margin: "10px" , padding: "8px" }}
                     />
                   ))}
                 </div>
