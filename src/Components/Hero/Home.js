@@ -69,7 +69,7 @@ const Home = () => {
                 <button className="btn_shadow">
                   <img src={skill1} alt="" />
                 </button>
-                <button className="btn_shadow">
+                {/* <button className="btn_shadow">
                   <img src={skill2} alt="" />
                 </button>
                 <button className="btn_shadow">
@@ -101,7 +101,7 @@ const Home = () => {
                 </button>
                 <button className="btn_shadow">
                   <img src={skill4} alt="" />
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
