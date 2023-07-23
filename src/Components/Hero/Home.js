@@ -60,22 +60,8 @@ const Home = () => {
 
             <div className="hero_btn d_flex">
               <div className="col_1">
-                <h4>FIND WITH ME</h4>
-                <div className="button">
-                  <button className="btn_shadow">
-                    <i class="fab fa-facebook-f"></i>
-                  </button>
-                  <button className="btn_shadow">
-                    <i class="fab fa-instagram"></i>
-                  </button>
-                  <button className="btn_shadow">
-                    <i class="fab fa-linkedin-in"></i>
-                  </button>
-                </div>
-              </div>
-              <div className="col_1">
                 <h4>BEST SKILL ON</h4>
-                <button className="btn_shadow">
+                <div className="btn_shadow">
                   {skills.map((skill) => (
                     <img
                       src={skill.img}
@@ -84,7 +70,7 @@ const Home = () => {
                       style={{ margin: "10px" }}
                     />
                   ))}
-                </button>
+                </div>
               </div>
             </div>
           </div>
