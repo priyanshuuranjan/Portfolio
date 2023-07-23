@@ -45,7 +45,7 @@ const Portfolio_data = [
     category: "Physiotherapy Website",
     // totalLike: "690",
     title: "App for tecnology & services",
-    image: "./assets/asset 3.png",
+    image: "https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg",
     des:"cbjdzbckasbcv",
   },
 ];
