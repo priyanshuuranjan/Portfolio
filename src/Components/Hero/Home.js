@@ -10,7 +10,7 @@ const Home = () => {
     { id: 3, img: "./assets/asset 7.png" },
     { id: 4, img: "./assets/asset 8.png" },
     { id: 5, img: "./assets/asset 9.png" },
-    { id: 6, img: "./assets/asset 10.png" },
+    { id: 6, img: "./assets/asset 5.png" },
     { id: 7, img: "./assets/asset 11.png" },
     { id: 8, img: "./assets/asset 12.png" },
     { id: 9, img: "./assets/asset 13.png" },

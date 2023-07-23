@@ -11,7 +11,7 @@ const Portfolio_data = [
     category: "APPLICATION",
     totalLike: "750",
     title: "Mobile app landing design & maintain",
-    image: "./pic/hero.png",
+    image: "./assets/asset 19.png",  // this is the path for adding ans sowing the images in projects i have to put the images in publick folder 
   },
   {
     id: 3,
