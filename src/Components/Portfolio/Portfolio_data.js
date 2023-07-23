@@ -1,8 +1,8 @@
 const Portfolio_data = [
   {
     id: 1,
-    category: "DEVELOPMENT",
-    totalLike: "600",
+    category: "complaint management system",
+    // totalLike: "750",
     title: "The services provide for design ",
     image: "https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg",
   },
