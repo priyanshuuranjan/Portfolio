@@ -68,7 +68,7 @@ const Home = () => {
                       src={skill.img}
                       alt={skill.id}
                       key={skill.id}
-                      style={{ margin: "10px" , padding: "8px" }}
+                      style={{ margin: "20px", padding: "8px" }}
                     />
                   ))}
                 </div>
