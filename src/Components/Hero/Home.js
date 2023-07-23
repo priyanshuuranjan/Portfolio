@@ -81,6 +81,7 @@ const Home = () => {
                       src={skill.img}
                       alt={`skill-${skill.id}`}
                       key={skill.id}
+                      style={{ margin: "10px" }}
                     />
                   ))}
                 </button>
