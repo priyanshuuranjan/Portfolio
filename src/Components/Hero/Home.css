@@ -43,11 +43,13 @@
   .hero_btn i {
     font-size: 20px;
   }
-  
+
+  /* skills size  */
   .hero_btn button img {
-    width: 20px;
-    height: 20px;
+    width: 60px;
+    height: 60px;
   }
+  
   .hero .left {
     margin-right: 10%;
   }

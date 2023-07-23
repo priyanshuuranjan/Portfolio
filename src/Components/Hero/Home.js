@@ -2,9 +2,17 @@ import React from "react";
 import "./Home.css";
 // import hero from "../pic/hero.png";
 import hero1 from "../pic/hero1.jpg";
-import skill1 from "../pic/skill1.png";
-import skill2 from "../pic/skill2.png";
+import skill1 from "../assets/asset 4.png";
+import skill2 from "../assets/asset 5.png";
 import skill3 from "../pic/skill3.png";
+import skill4 from "../assets/asset 6.png";
+import skill5 from "../assets/asset 7.png";
+import skill6 from "../assets/asset 8.png";
+import skill7 from "../assets/asset 9.png";
+import skill8 from "../assets/asset 10.png";
+import skill9 from "../assets/asset 11.png";
+import skill10 from "../assets/asset 12.png";
+import skill11 from "../assets/asset 13.png";
 import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
@@ -66,6 +74,33 @@ const Home = () => {
                 </button>
                 <button className="btn_shadow">
                   <img src={skill3} alt="" />
+                </button>
+                <button className="btn_shadow">
+                  <img src={skill4} alt="" />
+                </button>
+                <button className="btn_shadow">
+                  <img src={skill5} alt="" />
+                </button>
+                <button className="btn_shadow">
+                  <img src={skill6} alt="" />
+                </button>
+                <button className="btn_shadow">
+                  <img src={skill7} alt="" />
+                </button>
+                <button className="btn_shadow">
+                  <img src={skill8} alt="" />
+                </button>
+                <button className="btn_shadow">
+                  <img src={skill9} alt="" />
+                </button>
+                <button className="btn_shadow">
+                  <img src={skill10} alt="" />
+                </button>
+                <button className="btn_shadow">
+                  <img src={skill11} alt="" />
+                </button>
+                <button className="btn_shadow">
+                  <img src={skill4} alt="" />
                 </button>
               </div>
             </div>
