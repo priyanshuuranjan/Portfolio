@@ -27,7 +27,7 @@ const Home = () => {
       <section className="hero" id="home">
         <div className="container f_flex top">
           <div className="left top">
-            <h3>WELCOME TO MY WORLD</h3>
+            
             <h1>
               Hii, I’m <span>Priyanshu Ranjan</span>
             </h1>
