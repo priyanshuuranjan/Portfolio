@@ -4,37 +4,37 @@ const Portfolio_data = [
     category: "DSA",
     title: "From GFG",
     image:
-      "https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg",
+      "./assets/dsa.jpg",
   },
   {
     id: 2,
     category: "Node JS",
-    title: "From ",
-    image: "./assets/asset 19.png", 
+    title: "From Udemy",
+    image: "./assets/node.jpg", 
   },
   {
     id: 3,
     category: "DBMS",
     title: "From Spring Board",
-    image: "./assets/asset 19.png",
+    image: "./assets/data.jpg",
   },
   {
     id: 4,
     category: "Hackthon",
     title: "Collage Event",
-    image: "./assets/asset 19.png",
+    image: "./assets/code.jpg",
   },
   {
     id: 5,
     category: "React JS",
     title: "From Udemy",
-    image: "./assets/asset 19.png",
+    image: "./assets/react.jpg",
   },
   {
     id: 6,
     category: "Cloud Computing",
     title: "From Udemy",
-    image:"https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg",
+    image:"./assets/cloud.jpg",
   },
 ];
 export default Portfolio_data;

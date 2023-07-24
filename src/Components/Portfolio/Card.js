@@ -44,9 +44,9 @@ const Card = (props) => {
               <h2>{props.des}</h2>
 
               <div className="button f_flex mtop">
-                <button className="btn_shadow">
+                {/* <button className="btn_shadow">
                   VIEW PROJECT<i class="fas fa-chevron-right"></i>
-                </button>
+                </button> */}
               </div>
               <button className="close-modal btn_shadow" onClick={toggleModal}>
                 <i class="fas fa-times"></i>
