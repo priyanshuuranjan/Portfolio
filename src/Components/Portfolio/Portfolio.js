@@ -9,8 +9,30 @@ const Portfolio = () => {
       <section className="Portfolio top" id="portfolio">
         <div className="container">
           <div className="heading text-center ">
-            <h4>Projects And Certificates</h4>
-            <h1>My Projects</h1>
+            {/* <h4>Projects And Certificates</h4> */}
+            <h1> Projects</h1>
+          </div>
+
+          <div className="content grid">
+            {Portfolio_data.map((value, index) => {
+              return (
+                <Card
+                  key={index}
+                  image={value.image}
+                  category={value.category}
+                  des={value.des}
+                  title={value.title}
+                />
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      <section className="Portfolio top" id="portfolio">
+        <div className="container">
+          <div className="heading text-center ">
+            <h1>My Certificates</h1>
           </div>
 
           <div className="content grid">
