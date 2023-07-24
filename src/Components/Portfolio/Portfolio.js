@@ -2,6 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import Card from "./Card";
 import Portfolio_data from "./Portfolio_data";
+import Certificate_data from "./Certificate_data";
 
 const Portfolio = () => {
   return (
@@ -36,7 +37,7 @@ const Portfolio = () => {
           </div>
 
           <div className="content grid">
-            {Portfolio_data.map((value, index) => {
+            {Certificate_data.map((value, index) => {
               return (
                 <Card
                   key={index}

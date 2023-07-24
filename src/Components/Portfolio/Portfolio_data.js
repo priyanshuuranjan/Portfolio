@@ -47,5 +47,7 @@ const Portfolio_data = [
   //     "https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg",
   //   des: "cbjdzbckasbcv",
   // },
+
+  
 ];
 export default Portfolio_data;
