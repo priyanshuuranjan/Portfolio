@@ -15,25 +15,25 @@ const Portfolio_data = [
   {
     id: 3,
     category: "DBMS",
-    title: "Newborn baby photo frames",
+    title: "From Spring Board",
     image: "./assets/asset 19.png",
   },
   {
     id: 4,
     category: "Hackthon",
-    title: "Mobile app landing design & Services",
+    title: "Collage Event",
     image: "./assets/asset 19.png",
   },
   {
     id: 5,
     category: "React JS",
-    title: "Design and made best mail sender website",
+    title: "From Udemy",
     image: "./assets/asset 19.png",
   },
   {
     id: 6,
     category: "Cloud Computing",
-    title: "App for tecnology & services",
+    title: "From Udemy",
     image:"https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg",
   },
 ];

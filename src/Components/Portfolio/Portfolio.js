@@ -43,7 +43,6 @@ const Portfolio = () => {
                   key={index}
                   image={value.image}
                   category={value.category}
-                  des={value.des}
                   title={value.title}
                 />
               );
