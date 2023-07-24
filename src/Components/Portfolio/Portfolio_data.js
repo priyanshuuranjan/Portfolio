@@ -3,14 +3,14 @@ const Portfolio_data = [
     id: 1,
     category: "complaint management system",
     // totalLike: "750",
-    title: "The services provide services for collage students",
+    title: "The services provided for collage students only",
     image:
       "https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg",
     des: "The single-page website enables users to choose and describe hostel-life problems, submitting them for resolution. Data is stored on Firebase, and our management efficiently addresses and resolves these issues.",
   },
   {
     id: 2,
-    category: "APPLICATION",
+    category: "Physiotherapy Website",
     // totalLike: "750",
     title: "Mobile app landing design & maintain",
     image: "./assets/asset 19.png", // this is the path for adding ans sowing the images in projects i have to put the images in publick folder.
