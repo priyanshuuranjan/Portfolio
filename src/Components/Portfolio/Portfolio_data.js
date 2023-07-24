@@ -3,7 +3,7 @@ const Portfolio_data = [
     id: 1,
     category: "complaint management system",
     // totalLike: "750",
-    title: "The services provide for design collage students",
+    title: "The services provide services for collage students",
     image:
       "https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg",
     des: "The single-page website enables users to choose and describe hostel-life problems, submitting them for resolution. Data is stored on Firebase, and our management efficiently addresses and resolves these issues.",
