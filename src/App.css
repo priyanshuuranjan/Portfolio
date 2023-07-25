@@ -59,6 +59,13 @@ button {
   color: white;
   transform: translateY(-10px);
 }
+
+/* experimental  */
+.btn_shadoww:hover {
+  background: #ff014f;
+  color: white;
+  transform: translateY(-10px);
+}
 .box_shodow {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
