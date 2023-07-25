@@ -78,9 +78,14 @@ const Contact = () => {
                   <p>Email: priyanshumth0808@gmail.com</p> <br />
                   <span>FIND WITH ME</span>
                   <div className="button f_flex">
-                    <button className="btn_shadow">
-                      <i className="fab fa-github"></i>
-                    </button>
+                    <a
+                      href="https://github.com/priyanshuuranjan/"
+                      target={"_blank"}
+                    >
+                      <button className="btn_shadow">
+                        <i className="fab fa-github"></i>
+                      </button>
+                    </a>
                     <a
                       href="https://www.instagram.com/priyanshu_singh45/"
                       target={"_blank"}
@@ -89,9 +94,14 @@ const Contact = () => {
                         <i className="fab fa-instagram"></i>
                       </button>
                     </a>
-                    <button className="btn_shadow">
-                      <i className="fab fa-linkedin"></i>
-                    </button>
+                    <a
+                      href="https://www.linkedin.com/in/priyanshu-ranjan-741462201/"
+                      target={"_blank"}
+                    >
+                      <button className="btn_shadow">
+                        <i className="fab fa-linkedin"></i>
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
