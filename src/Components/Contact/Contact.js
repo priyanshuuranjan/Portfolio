@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import contact1 from "./contact1.png";
 import "./Contact.css";
-
+import emailjs from "emailjs-com";
 const Contact = () => {
   const [data, setData] = useState({
     fullname: "",
@@ -27,14 +27,30 @@ const Contact = () => {
   const formSubmit = (event) => {
     event.preventDefault();
     alert(
-      `My name is ${data.fullname}. 
-	My phone number is ${data.phone}. 
-	My email address is ${data.email}. 
-	My Subject on  ${data.subject}. 
-	Here is my message I want to say : ${data.message}. 
-	`
+      `My name is ${data.fullname}.
+  My phone number is ${data.phone}.
+  My email address is ${data.email}.
+  My Subject on  ${data.subject}.
+  Here is my message I want to say : ${data.message}.
+  `
     );
   };
+  function sendEmail(e) {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_p4gzc1d",
+        "template_azsc74j",
+        e.target,
+        "P0PQD3FSgA4lSadwz"
+      )
+      .then((res) => {
+        console.log("success", res);
+      })
+      .catch((err) => {
+        console.log("error", err);
+      });
+  }
   return (
     <>
       <section className="Contact" id="contact">
@@ -78,7 +94,7 @@ const Contact = () => {
 
             {/* On submiting the contect form these sms were display on home screen of users  */}
 
-            <div className="right box_shodow">
+            <div className="right box_shodow" onSubmit={sendEmail}>
               <form onSubmit={formSubmit}>
                 <div className="f_flex">
                   <div className="input row">
@@ -109,15 +125,15 @@ const Contact = () => {
                     onChange={InputEvent}
                   />
                 </div>
-                <div className="input">
+                {/* <div className="input">
                   <span>SUBJECT </span>
                   <input
                     type="text"
-                    name="subject"
+                    name="text"
                     value={data.subject}
                     onChange={InputEvent}
                   />
-                </div>
+                </div> */}
                 <div className="input">
                   <span>YOUR MESSAGE </span>
                   <textarea

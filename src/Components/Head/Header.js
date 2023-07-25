@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Header.css";
 import logo from "../pic/logo192.png";
 
-
 const Header = () => {
   // fixed Header
   window.addEventListener("scroll", function () {
@@ -29,9 +28,7 @@ const Header = () => {
               <li>
                 <a href="#home">home</a>
               </li>
-              <li>
-                <a href="#features">features</a>
-              </li>
+
               <li>
                 <a href="#portfolio">portfolio</a>
               </li>
@@ -45,7 +42,7 @@ const Header = () => {
                 <button className="home-btn">Download CV</button>
               </li>
             </ul>
-            
+
             {/* ye jb hm phn me on krenge tb ye close krne ka option aayega ish liye use kiye hai ishe hm  */}
             <button className="toggle" onClick={() => setMobile(!Mobile)}>
               {Mobile ? (
