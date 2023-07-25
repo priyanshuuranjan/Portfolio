@@ -62,7 +62,7 @@ const Home = () => {
             <div className="hero_btn d_flex">
               <div className="col_1">
                 <h4>BEST SKILL ON</h4>
-                <div className="btn_shadow">
+                <div className="btn_skills">
                   {skills.map((skill) => (
                     <img
                       src={skill.img}

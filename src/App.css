@@ -61,10 +61,20 @@ button {
 }
 
 /* experimental  */
-.btn_shadoww:hover {
-  background: #ff014f;
-  color: white;
+.btn_skills:hover {
+  background: #837579;
+  color: rgb(105, 97, 97);
   transform: translateY(-10px);
+}
+.btn_skills {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+  background-color:#c2B9B0  ; 
+  /* #c2B9B0  #3c3e41*/
 }
 .box_shodow {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
