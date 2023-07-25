@@ -79,7 +79,11 @@ const Contact = () => {
                   <span>FIND WITH ME</span>
                   <div className="button f_flex">
                     <button className="btn_shadow">
-                      <i className="fab fa-facebook-f"></i>
+                      <i
+                        className="fab fa-facebook-f"
+                        href="https://www.instagram.com/priyanshu_singh45/"
+                        target={"blank"}
+                      ></i>
                     </button>
                     <button className="btn_shadow">
                       <i className="fab fa-instagram"></i>
