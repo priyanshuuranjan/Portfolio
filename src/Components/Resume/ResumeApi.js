@@ -34,8 +34,8 @@ const ResumeApi = [
   {
     id: 5,
     category: "experience",
-    year: "Photography Website ",
-    title: "Domain: Web Development | Skills honed: HTML, CSS, JavaScript and Bootstrap. ",
+    year: " Domain: Web Development | Skills honed: HTML, CSS, JavaScript and Bootstrap.  ",
+    title: "Photography Website ",
     desc: "Explore our website featuring a delightful array of newborn baby photo frames, available in various styles and designs. Users can effortlessly select multiple frames and place orders, all with the added bonus of being completely free for everyone.",
     // rate: "4.95/5 ",
   },

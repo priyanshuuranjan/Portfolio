@@ -57,7 +57,7 @@ const Contact = () => {
         <div className="container top">
           <div className="heading text-center">
             {/* <h4>CONTACT</h4> */}
-            <h1>Contact With Me</h1>
+            <h1> Get In Touch</h1>
           </div>
 
           <div className="content d_flex">
@@ -92,7 +92,7 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* On submiting the contect form these sms were display on home screen of users  */}
+            {/* On submiting the contect form message were sent to the user email  */}
 
             <div className="right box_shodow" onSubmit={sendEmail}>
               <form onSubmit={formSubmit}>
@@ -125,15 +125,6 @@ const Contact = () => {
                     onChange={InputEvent}
                   />
                 </div>
-                {/* <div className="input">
-                  <span>SUBJECT </span>
-                  <input
-                    type="text"
-                    name="text"
-                    value={data.subject}
-                    onChange={InputEvent}
-                  />
-                </div> */}
                 <div className="input">
                   <span>YOUR MESSAGE </span>
                   <textarea
