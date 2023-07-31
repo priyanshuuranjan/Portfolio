@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
-// import logo from "../pic/logo192.png";
 import logo from "../pic/logotra.png";
+import cv from "../assets/cv"
 
 const Header = () => {
   // fixed Header
@@ -41,7 +41,7 @@ const Header = () => {
                 <a href="#contact">contact</a>
               </li>
               <li>
-                <button className="home-btn" >Download CV</button>
+                <button className="home-btn" href={cv} download="Resume">Download CV</button>
               </li>
             </ul>
             {/* <a href ={https://drive.google.com/file/d/1dh_cKbrBo_FBZpE9-gweLz3ZEDOX8AQY/view?usp=drivesdk } download>CV</a> */}
