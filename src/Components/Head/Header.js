@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
 import logo from "../pic/logotra.png";
-import cv from "../assets/cv"
 
 const Header = () => {
   // fixed Header
@@ -11,7 +10,20 @@ const Header = () => {
   });
   // Toogle Menu
   const [Mobile, setMobile] = useState(false);
-  
+
+  // Download cv using gopgale drive link...
+  function handleDownloadClick() {
+    const cvFileUrl =
+      "https://drive.google.com/file/d/1dh_cKbrBo_FBZpE9-gweLz3ZEDOX8AQY/view?usp=drivesdk";
+
+    // Create a temporary link element to initiate the download
+    const link = document.createElement("a");
+    link.href = cvFileUrl;
+    link.download = "Resume"; // You can set a custom filename for the downloaded file
+    link.target = "_blank"; // This will open the link in a new tab/window to initiate the download
+    link.click();
+  }
+
   return (
     <>
       <header className="header">
@@ -26,7 +38,6 @@ const Header = () => {
               className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"}
               onClick={() => setMobile(false)}
             >
-              {/* <ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'> */}
               <li>
                 <a href="#home">home</a>
               </li>
@@ -41,7 +52,9 @@ const Header = () => {
                 <a href="#contact">contact</a>
               </li>
               <li>
-                <button className="home-btn" href={cv} download="Resume">Download CV</button>
+                <button className="home-btn" onClick={handleDownloadClick}>
+                  Download CV
+                </button>
               </li>
             </ul>
             {/* <a href ={https://drive.google.com/file/d/1dh_cKbrBo_FBZpE9-gweLz3ZEDOX8AQY/view?usp=drivesdk } download>CV</a> */}
