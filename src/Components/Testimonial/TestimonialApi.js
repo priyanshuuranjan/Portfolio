@@ -1,7 +1,7 @@
 const TestimonialApi = [
   {
     id: 1,
-    image: "./image/slide1.png",
+    image: "./assets/cms.png",
     design: "NCD - DESIGN",
     name: "Mevine Thoda",
     offcer: "Marketing Officer",
