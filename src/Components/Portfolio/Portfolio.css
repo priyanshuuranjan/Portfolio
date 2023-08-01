@@ -135,10 +135,10 @@ body.active-modal {
   margin: 0;
 }
 /*------------popup--------*/
-@media (min-width:500px) and (max-width: 768px) {
+@media (min-width: 500px) and (max-width: 768px) {
   .modal,
   .overlay {
-    overflow:auto;
+    overflow: auto;
   }
 
   .modal .modal-img {
@@ -153,8 +153,8 @@ body.active-modal {
   }
 }
 
- /* ye hai jo project ya certificate wale me popup me change ka.. fixed here--> jo navbar overflow ho rha tha oo kiya gya hai screen size me   */
-@media (min-width:395px) and (max-width: 450px) {
+/* ye hai jo project ya certificate wale me popup me change ka.. fixed here--> jo navbar overflow ho rha tha oo kiya gya hai screen size me   */
+@media (min-width: 395px) and (max-width: 450px) {
   .modal,
   .overlay {
     width: 100%;
@@ -173,7 +173,4 @@ body.active-modal {
   }
 }
 
-
 /*@media (300px <= width <= 600px)*/
-
-
