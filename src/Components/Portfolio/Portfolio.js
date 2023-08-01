@@ -30,13 +30,13 @@ const Portfolio = () => {
         </div>
       </section>
 
-      <section className="Portfolio top" id="portfolio">
+      <section className="certificate top" id="certificate">
         <div className="container">
           <div className="heading text-center ">
             <h1 className="certificate">My Certificates</h1>
           </div>
 
-          <div className="content grid">
+          <div className="content grid ">
             {Certificate_data.map((value, index) => {
               return (
                 <Card

@@ -1,6 +1,7 @@
 .Portfolio {
   position: relative;
 }
+
 .Portfolio .box {
   border-radius: 10px;
   position: relative;
@@ -54,6 +55,66 @@
   color: #ff014f;
 }
 .Portfolio .box:hover {
+  color: black;
+}
+
+/*certificates css */
+.certificate {
+  position: relative;
+}
+.certificate .box {
+  border-radius: 10px;
+  position: relative;
+}
+.certificate .box:hover {
+  background: none;
+  transform: translateY(-0);
+}
+
+.certificate .img {
+  height: 300px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.certificate img {
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.certificate .box .img:hover img {
+  transform: scale(1.2);
+}
+.certificate .category {
+  margin: 10px 0 30px 0;
+  text-transform: uppercase;
+}
+.certificate .category span {
+  color: #ff014f;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.certificate .arrow {
+  position: absolute;
+  right: 30px;
+  bottom: 11%;
+  transform: rotate(-45deg);
+  color: #ff014f;
+  opacity: 0;
+  transition: 0.5s;
+}
+.certificate .title:hover .arrow {
+  opacity: 1;
+}
+.certificate h2 {
+  font-size: 18px;
+  transition: 0.5s;
+  padding-bottom: 30px;
+}
+.certificate .box:hover h2 {
+  color: #ff014f;
+}
+.certificate .box:hover {
   color: black;
 }
 
@@ -178,7 +239,7 @@ body.active-modal {
     overflow: hidden;
     transition: 0.5s;
   }
-  .Portfolio .box {
+  .box {
     border-radius: 10px;
     position: relative;
     margin-left: 30px;
@@ -189,7 +250,6 @@ body.active-modal {
   .project {
     margin-left: 70px;
   }
-  
 }
 
 /*@media (300px <= width <= 600px)*/
