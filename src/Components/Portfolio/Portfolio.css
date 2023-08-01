@@ -70,8 +70,9 @@ body.active-modal {
 
 .modal,
 .overlay {
-  width: 100vw;
-  height: 100vh;
+  /* ye hai jo project ya certificate wale me popup me change ka.. fixed here--> jo navbar overflow ho rha tha oo kiya gya hai */
+  /* width: 100vw; */
+  /* height: 100vh; */
   top: 0;
   left: 0;
   right: 0;
@@ -118,6 +119,7 @@ body.active-modal {
 .modal-text button i {
   margin-left: 10px;
 }
+/*cross button for phone */
 .modal-text button.close-modal {
   position: absolute;
   top: 10px;
@@ -150,3 +152,26 @@ body.active-modal {
     padding: 0;
   }
 }
+
+@media (max-width: 412px) {
+  .modal,
+  .overlay {
+    overflow: auto;
+  }
+
+  .modal .modal-img {
+    margin: 50px 0 30px 0;
+  }
+  .modal-content {
+    flex-direction: column;
+  }
+  .modal .right,
+  .modal .left {
+    padding: 0;
+  }
+}
+
+
+
+
+
