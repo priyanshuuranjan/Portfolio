@@ -186,6 +186,9 @@ body.active-modal {
   .certificate {
     margin-left: 60px;
   }
+  .project {
+    margin-left: 70px;
+  }
 }
 
 /*@media (300px <= width <= 600px)*/
