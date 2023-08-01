@@ -107,7 +107,7 @@
   opacity: 1;
 }
 .certificate h2 {
-  font-size: 18px;
+  /* font-size: 18px; */
   transition: 0.5s;
   padding-bottom: 30px;
 }
@@ -239,16 +239,31 @@ body.active-modal {
     overflow: hidden;
     transition: 0.5s;
   }
-  .box {
+  .project {
+    margin-left: 70px;
+  }
+
+  .Portfolio .box {
     border-radius: 10px;
     position: relative;
     margin-left: 30px;
   }
-  .certificate {
-    margin-left: 60px;
+
+  .certificate .img {
+    height: 100px;
+    overflow: hidden;
+    transition: 0.5s;
   }
-  .project {
-    margin-left: 70px;
+  .certificate {
+    margin-left: 40px;
+  }
+  .My {
+    margin-left: 20px;
+  }
+  .certificate .box {
+    border-radius: 10px;
+    position: relative;
+    margin-left: 30px;
   }
 }
 
