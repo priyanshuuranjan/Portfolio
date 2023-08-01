@@ -24,7 +24,7 @@
   transform: scale(1.2);
 }
 .Portfolio .category {
-  margin: 20px 0 30px 0;
+  margin: 10px 0 30px 0;
   text-transform: uppercase;
 }
 .Portfolio .category span {
@@ -172,6 +172,19 @@ body.active-modal {
   .modal .left {
     padding: 0;
   }
+  /* project section modification for phone screen*/
+  .Portfolio .img {
+    height: 100px;
+  overflow: hidden;
+  transition: 0.5s;
 }
+.Portfolio .box {
+  border-radius: 10px;
+  position: relative;
+  margin-left: 30px;
+}
+}
+
+
 
 /*@media (300px <= width <= 600px)*/
