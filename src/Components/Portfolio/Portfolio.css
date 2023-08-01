@@ -175,19 +175,17 @@ body.active-modal {
   /* project section modification for phone screen*/
   .Portfolio .img {
     height: 100px;
-  overflow: hidden;
-  transition: 0.5s;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .Portfolio .box {
+    border-radius: 10px;
+    position: relative;
+    margin-left: 30px;
+  }
+  .certificate {
+    margin-left: 60px;
+  }
 }
-.Portfolio .box {
-  border-radius: 10px;
-  position: relative;
-  margin-left: 30px;
-}
-.certificate{
-  margin-left: 60px;
-}
-}
-
-
 
 /*@media (300px <= width <= 600px)*/
