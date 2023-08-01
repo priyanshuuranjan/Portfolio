@@ -56,7 +56,9 @@
 .Portfolio .box:hover {
   color: black;
 }
-/*-----------popup------*/
+
+/*-----------popup model code ------*/
+
 body.active-modal {
   overflow-y: hidden;
 }
