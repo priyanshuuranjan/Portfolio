@@ -30,7 +30,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      <section className="certificate top" id="certificate">
+      <section className="Portfolio top" id="Portfolio">
         <div className="container">
           <div className="heading text-center ">
             <h1 className="My">My Certificates</h1>

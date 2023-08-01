@@ -59,7 +59,7 @@
 }
 
 /*certificates css */
-.certificate {
+/* .certificate {
   position: relative;
 }
 .certificate .box {
@@ -107,7 +107,7 @@
   opacity: 1;
 }
 .certificate h2 {
-  /* font-size: 18px; */
+  font-size: 18px;
   transition: 0.5s;
   padding-bottom: 30px;
 }
@@ -116,7 +116,7 @@
 }
 .certificate .box:hover {
   color: black;
-}
+} */
 
 /*-----------popup model code ------*/
 
@@ -216,7 +216,7 @@ body.active-modal {
 }
 
 /* ye hai jo project ya certificate wale me popup me change ka.. fixed here--> jo navbar overflow ho rha tha oo kiya gya hai screen size me   */
-@media (min-width: 395px) and (max-width: 450px) {
+@media (min-width: 395px) and (max-width: 750px) {
   .modal,
   .overlay {
     width: 100%;
@@ -248,22 +248,15 @@ body.active-modal {
     position: relative;
     margin-left: 30px;
   }
-
-  .certificate .img {
-    height: 100px;
-    overflow: hidden;
-    transition: 0.5s;
-  }
-  .certificate {
-    margin-left: 40px;
-  }
-  .My {
-    margin-left: 20px;
-  }
-  .certificate .box {
+ 
+ 
+  .Portfolio .box {
     border-radius: 10px;
     position: relative;
-   
+    margin-left: 30px;
+  }
+  .My {
+    margin-left: 40px;
   }
 }
 
