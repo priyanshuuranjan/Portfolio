@@ -33,7 +33,7 @@ const Portfolio = () => {
       <section className="Portfolio top" id="portfolio">
         <div className="container">
           <div className="heading text-center ">
-            <h1>My Certificates</h1>
+            <h1 className="certificate">My Certificates</h1>
           </div>
 
           <div className="content grid">
