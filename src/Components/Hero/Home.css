@@ -72,6 +72,9 @@
   position: absolute;
   top: 0;
   right: 10%;
+  margin-right: 35px;
+  margin-top: 128px;
+  border-radius: 15px;
   width: 510px;
 }
 @media (max-width: 768px) {
@@ -97,19 +100,12 @@
   }
   .hero .right_img {
     width: 0%;
+    margin-bottom: -100px;
+  }
+  .hero .right_img img {
     border-radius: 15px;
-  }
-}
-
-/* .img-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-  }
   
-  .img-wrapper > div {
-    flex: 0 1 33%;
-  } */
-/*
-
+  }
 }
-*/
+
+
