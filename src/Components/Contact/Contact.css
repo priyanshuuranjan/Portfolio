@@ -54,6 +54,7 @@
   .get {
     margin-left: 10px;
     margin-right: -60px;
+    margin-bottom: -50px;
   }
   .Contact .box {
     margin-left: 10px;
@@ -61,8 +62,5 @@
   }
   .Contact .right {
     margin-left: 20px;
-  }
-  img {
-    width: 100%;
   }
 }

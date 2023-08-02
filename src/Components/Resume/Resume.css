@@ -91,7 +91,7 @@
 
 @media (min-width: 395px) and (max-width: 750px) {
   .year{
-    margin-left:140px;
+    margin-left:150px;
   }
   .years{
     margin-left:30px;
@@ -99,4 +99,5 @@
   .project{
     margin-left:140px;
   }
+ 
 }
