@@ -95,6 +95,10 @@
   .hero .right_img {
     margin: 0 0 0 0;
   }
+  .hero .right_img {
+    width: 0%;
+    border-radius: 15px;
+  }
 }
 
 /* .img-wrapper {
