@@ -16,8 +16,8 @@ const Resume = () => {
         <div className="content-section mtop d_flex">
           <div className="left">
             <div className="heading">
-              <h4>2017-Present</h4>
-              <h1>Education Quality</h1>
+              <h4 className="year">2017-Present</h4>
+              <h1 className="years">Education Quality</h1>
             </div>
 
             <div className="content">
@@ -39,8 +39,8 @@ const Resume = () => {
 
           <div className="left">
             <div className="heading">
-              <h4>2020-Present</h4>
-              <h1>Projects</h1>
+              <h4 className="year">2020-Present</h4>
+              <h1 className="project">Projects</h1>
             </div>
 
             <div className="content">
