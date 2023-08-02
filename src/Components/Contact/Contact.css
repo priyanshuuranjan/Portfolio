@@ -51,6 +51,9 @@
   }
 }
 @media (min-width: 395px) and (max-width: 750px) {
-  
+  .get{
+    margin-left: 10px;
+    margin-right: -60px;
+  }
 }
 

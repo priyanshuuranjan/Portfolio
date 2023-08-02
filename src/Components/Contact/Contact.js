@@ -57,7 +57,7 @@ const Contact = () => {
         <div className="container top">
           <div className="heading text-center">
             {/* <h4>CONTACT</h4> */}
-            <h1> Get In Touch</h1>
+            <h1 className="get"> Get In Touch</h1>
           </div>
 
           <div className="content d_flex">
@@ -74,7 +74,7 @@ const Contact = () => {
                     via email and social networks.
                   </p>{" "}
                   <br />
-                  <p>Phone: +91**********</p>
+                  <p>Phone: +91 6299908913</p>
                   <p>Email: priyanshumth0808@gmail.com</p> <br />
                   <span>FIND WITH ME</span>
                   <div className="button f_flex">
