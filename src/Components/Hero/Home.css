@@ -68,6 +68,10 @@
   width: 510px;
   margin-top: 20%;
 }
+/*hover effect*/
+.hero .right_img:hover {
+  background: #b8bac5;
+}
 .hero .right_img img {
   position: absolute;
   top: 0;
@@ -104,7 +108,8 @@
   }
   .hero .right_img img {
     border-radius: 15px;
-  
+    margin-right: -5px;
+    margin-top: 5px;
   }
 }
 
