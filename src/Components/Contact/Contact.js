@@ -64,7 +64,7 @@ const Contact = () => {
             <div className="left">
               <div className="box box_shodow">
                 <div className="img">
-                  <img src={contact1} alt="" />
+                  <img src={contact1 } alt="" />
                 </div>
                 <div className="details">
                   <h1>Priyanhu Ranjan.</h1>

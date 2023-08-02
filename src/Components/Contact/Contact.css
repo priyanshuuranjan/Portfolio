@@ -59,5 +59,11 @@
     margin-left: 10px;
     margin-right:-40px;
   }
+  .Contact .right {
+    margin-left: 20px;
+  }
+  .img{
+  width: 50%;
+  }
 }
 
