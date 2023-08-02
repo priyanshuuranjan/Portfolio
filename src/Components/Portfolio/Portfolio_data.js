@@ -9,7 +9,7 @@ const Portfolio_data = [
   {
     id: 2,
     category: "Physiotherapy Website",
-    title: "A complete physiotherapy website for patient ",
+    title: "A complete physiotherapy website for all types of patient ",
     image: "./assets/phy.png", // this is the path for adding ans sowing the images in projects i have to put the images in publick folder.
     des: "Discover our comprehensive physiotherapy website, built using React JS, with multiple pages offering a wide range of treatment options. Experience the convenience of video consultations and online booking. Emphasizing natural therapies, we also welcome email inquiries, ensuring seamless communication for optimal care and personalized service. ",
   },
@@ -17,17 +17,16 @@ const Portfolio_data = [
     id: 3,
     category: "Photography Website",
     title: "Newborn baby photo frames",
-    image: "./assets/photo.png",
+    image: "./assets/Photo.png",
     des: "Explore our website featuring a delightful array of newborn baby photo frames, available in various styles and designs. Users can effortlessly select multiple frames and place orders, all with the added bonus of being completely free for everyone.",
   },
-  // {
-  //   id: 4,
-  //   category: "FIGMA",
-
-  //   title: "Mobile app landing design & Services",
-  //   image: "./assets/asset 19.png",
-  //   des: " i desighn many tempaltes on figma",
-  // },
+  {
+    id: 4,
+    category: "Mail Sender Website",
+    title: " Email Sender  ",
+    image: "./assets/node.png",
+    des: " A user-friendly mail sender website was developed using NodeMailer, enabling users to effortlessly send emails. The website can be conveniently integrated into their own websites for contact purposes, streamlining communication with recipients",
+  },
   // {
   //   id: 5,
   //   category: "Mail Sender",
