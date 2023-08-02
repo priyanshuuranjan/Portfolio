@@ -51,19 +51,15 @@
   }
 }
 @media (min-width: 395px) and (max-width: 750px) {
-  .get{
+  .get {
     margin-left: 10px;
     margin-right: -60px;
   }
   .Contact .box {
     margin-left: 10px;
-    margin-right:-40px;
+    margin-right: -40px;
   }
   .Contact .right {
     margin-left: 20px;
   }
-  .img{
-  width: 50%;
-  }
 }
-
