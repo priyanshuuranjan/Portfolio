@@ -11,7 +11,7 @@ const Portfolio = () => {
         <div className="container">
           <div className="heading text-center ">
             {/* <h4>Projects And Certificates</h4> */}
-            <h1 className="project"> Projects</h1>
+            <h1 className="Projects"> Projects</h1>
           </div>
 
           <div className="content grid">

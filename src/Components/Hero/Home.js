@@ -77,7 +77,7 @@ const Home = () => {
           </div>
           <div className="right">
             <div className="right_img">
-              <img src={hero1} alt="" />
+              <img src={hero1} alt="" style={{width: "100%"}}/>
             </div>
           </div>
         </div>

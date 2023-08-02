@@ -239,7 +239,7 @@ body.active-modal {
     overflow: hidden;
     transition: 0.5s;
   }
-  .project {
+  .Projects {
     margin-left: 70px;
   }
 
@@ -248,8 +248,7 @@ body.active-modal {
     position: relative;
     margin-left: 30px;
   }
- 
- 
+  
   .Portfolio .box {
     border-radius: 10px;
     position: relative;
