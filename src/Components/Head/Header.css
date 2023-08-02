@@ -99,15 +99,7 @@ header ul li a:hover {
     height: 10vh;
   }
 }
-/* logo resizer css */
 
-/* .logo img {
-  width: 250px;
-  max-width: 300px;
-  // mix-blend-mode: #ecf0f3; 
-  position: absolute;
-  height: 150px;
-} */
 .logo img {
   width: 350px;
  margin-top:-60px;
