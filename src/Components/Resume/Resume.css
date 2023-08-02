@@ -99,5 +99,8 @@
   .project{
     margin-left:140px;
   }
+  .Resume .box:hover {
+    background: #ff3a75;
+  }
  
 }

@@ -1,6 +1,8 @@
 .hero {
   position: relative;
+  margin-top: -90px;
 }
+
 .hero h3 {
   font-weight: 100;
   letter-spacing: 2px;
@@ -101,6 +103,12 @@
 @media (min-width: 395px) and (max-width: 750px) {
   .hero .right_img {
     margin: 0 0 0 0;
+    /* background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    margin-top: 20%; */
   }
   .hero .right_img {
     width: 0%;
