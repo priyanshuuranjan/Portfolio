@@ -91,6 +91,12 @@
   }
 }
 
+@media (min-width: 395px) and (max-width: 750px) {
+  .hero .right_img {
+    margin: 0 0 0 0;
+  }
+}
+
 /* .img-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -99,3 +105,7 @@
   .img-wrapper > div {
     flex: 0 1 33%;
   } */
+/*
+
+}
+*/
