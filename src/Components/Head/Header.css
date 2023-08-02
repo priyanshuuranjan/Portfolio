@@ -18,12 +18,13 @@ header ul li a:hover {
   color: #ff014f;
 }
 .home-btn {
-  padding: 18px 25px;
+  padding: 18px 10px;
   border-radius: 6px;
   transition: 0.3s all ease;
   cursor: pointer;
   height: fit-content;
   color: #ff014f;
+  margin-left: -20px;
 }
 .home-btn {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
@@ -102,9 +103,18 @@ header ul li a:hover {
 
 .logo img {
   width: 350px;
- margin-top:-60px;
+  margin-top: -60px;
   height: auto;
   max-width: 200px;
 }
 
-
+/* @media (min-width: 395px) and (max-width: 750px) {
+  .home-btn {
+    padding: 18px 25px;
+    border-radius: 6px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    height: fit-content;
+    color: #ff014f;
+  }
+} */
