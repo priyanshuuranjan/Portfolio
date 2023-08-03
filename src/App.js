@@ -11,7 +11,7 @@ function App() {
   const [loadings, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
-    setTimeout(() => setLoading(false), 2000);
+    setTimeout(() => setLoading(false), 4000);
   }, []);
   return (
     <>
@@ -27,11 +27,11 @@ function App() {
         >
           <HashLoader
             color={"#36d7b7"}
-            size={150}
+            size={100}
             aria-label="Loading Spinner"
             data-testid="loader"
           />
-          <p>Hello buddy</p>
+          <h3>Loading...</h3>
         </div>
       ) : (
         <div className="App">
@@ -45,6 +45,5 @@ function App() {
     </>
   );
 }
-
 
 export default App;
