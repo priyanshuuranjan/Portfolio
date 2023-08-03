@@ -23,6 +23,7 @@ const Portfolio = () => {
                   category={value.category}
                   des={value.des}
                   title={value.title}
+                  link={value.link}
                 />
               );
             })}
