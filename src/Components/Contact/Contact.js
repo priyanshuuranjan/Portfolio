@@ -64,7 +64,7 @@ const Contact = () => {
             <div className="left">
               <div className="box box_shodow">
                 <div className="img">
-                <img src={contact1} alt="" style={{width: "100%"}} />
+                  <img src={contact1} alt="" style={{ width: "100%" }} />
                 </div>
                 <div className="details">
                   <h1>Priyanshu Ranjan.</h1>
@@ -81,6 +81,7 @@ const Contact = () => {
                     <a
                       href="https://github.com/priyanshuuranjan/"
                       target={"_blank"}
+                      rel="noopener noreferrer"
                     >
                       <button className="btn_shadow">
                         <i className="fab fa-github"></i>
@@ -89,14 +90,17 @@ const Contact = () => {
                     <a
                       href="https://www.instagram.com/priyanshu_singh45/"
                       target={"_blank"}
+                      rel="noopener noreferrer"
                     >
                       <button className="btn_shadow">
                         <i className="fab fa-instagram"></i>
                       </button>
                     </a>
+
                     <a
                       href="https://www.linkedin.com/in/priyanshu-ranjan-741462201/"
                       target={"_blank"}
+                      rel="noopener noreferrer"
                     >
                       <button className="btn_shadow">
                         <i className="fab fa-linkedin"></i>
@@ -106,7 +110,8 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-
+            {/* /*rel="noopener" prevents the new page from being able to access the window.opener property and ensures it runs in a separate process.
+rel="noreferrer" has the same effect but also prevents the Referer header from being sent to the new page.  */}
             {/* On submiting the contect form message were sent to the user email  */}
 
             <div className="right box_shodow" onSubmit={sendEmail}>
