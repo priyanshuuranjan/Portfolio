@@ -34,13 +34,12 @@ const Portfolio_data = [
     image: "./assets/portfolio.png",
     des: "I have created a personal website that showcases all my skills, projects, certificates, and a well-organized resume. Additionally, the site includes a working contact form, allowing visitors to easily get in touch with me. It serves as a comprehensive platform to represent my abilities and experiences in a professional manner. ",
   },
-  // {
-  //   id: 6,
-  //   category: "Physiotherapy Website",
-  //   title: "App for tecnology & services",
-  //   image:
-  //     "https://rainbowit.net/html/inbio/assets/images/portfolio/portfolio-01.jpg",
-  //   des: "cbjdzbckasbcv",
-  // },
+  {
+    id: 5,
+    category: "Food website",
+    title: "A simple food website",
+    image: "./assets/food.png",
+    des: "Create a straightforward food website using HTML, CSS, and JavaScript. The site can showcase different recipes, allow users to search for dishes, and feature a responsive design for a seamless experience across devices. Implement attractive visuals, interactive elements, and a user-friendly layout to enhance engagement. Additionally, integrate social media sharing buttons to enable users to share their favorite recipes with friends. ",
+  },
 ];
 export default Portfolio_data;
