@@ -67,7 +67,7 @@ const Contact = () => {
                 <img src={contact1} alt="" style={{width: "100%"}} />
                 </div>
                 <div className="details">
-                  <h1>Priyanhu Ranjan.</h1>
+                  <h1>Priyanshu Ranjan.</h1>
                   <p>An Aspiring Software Engineer</p>
                   <p>
                     I am available for part-time freelance work. Connect with me

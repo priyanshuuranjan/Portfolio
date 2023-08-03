@@ -29,7 +29,7 @@ const Home = () => {
           <div className="left top">
             
             <h1>
-              Hii, I’m <span>Priyanshu Ranjan</span>
+              Hi, I’m <span>Priyanshu Ranjan,</span>
             </h1>
             <h2>
               a
