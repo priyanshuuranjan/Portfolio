@@ -16,14 +16,25 @@ function App() {
   return (
     <>
       {loadings ? (
-        <HashLoader
-          color={"#36d7b7"}
-          size={150}
-          aria-label="Loading Spinner"
-          data-testid="loader"
-        />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100vh",
+            flexDirection: "column",
+          }}
+        >
+          <HashLoader
+            color={"#36d7b7"}
+            size={150}
+            aria-label="Loading Spinner"
+            data-testid="loader"
+          />
+          <p>Hello buddy</p>
+        </div>
       ) : (
-        <div className="Spinner">
+        <div className="App">
           <Header />
           <Home />
           <Portfolio />
@@ -34,5 +45,6 @@ function App() {
     </>
   );
 }
+
 
 export default App;
