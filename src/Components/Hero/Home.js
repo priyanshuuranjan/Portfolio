@@ -21,6 +21,7 @@ const Home = () => {
     { id: "Figma", img: "./assets/asset 17.png" },
     { id: "Github", img: "./assets/asset 18.png" },
     { id: "Team Work", img: "./assets/asset 19.png" },
+    { id: "Angular", img: "./assets/angular.png" },
   ];
   return (
     <>
