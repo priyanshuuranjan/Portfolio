@@ -4,7 +4,7 @@ const ResumeApi = [
     category: "education",
     year: "Lovely Professional University | Phagwara, IN (2020 - Present)",
     title: "B.Tech. in Computer Science",
-    desc: "Studied Computer Science at LPU College, admitted in 2020. Explored cutting-edge tech, coding, and problem-solving in a dynamic learning environment, preparing for a promising future in the digital world..",
+    desc: "Study Computer Science at LPU College, admitted in 2020. Explored cutting-edge tech, coding, and problem-solving in a dynamic learning environment, preparing for a promising future in the digital world..",
     // rate: "4.30/5",
   },
   {
