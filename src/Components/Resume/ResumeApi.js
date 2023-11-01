@@ -45,7 +45,7 @@ const ResumeApi = [
     year: "Domain: Web Development | Skills honed: HTML, CSS, React Js, Google Fonts, Google UI, Charkkra UI, Node-Mailer, Node Js, Express Js, and Bootstrap.",
     title: "Physiotherapy Website",
     desc: "Discover our comprehensive physiotherapy website, built using React JS, with multiple pages offering a wide range of treatment options. Experience the convenience of video consultations and online booking. Emphasizing natural therapies, we also welcome email inquiries, ensuring seamless communication for optimal care and personalized service.",
-    // rate: "5.00/5 ",
+    
   },
 ];
 
