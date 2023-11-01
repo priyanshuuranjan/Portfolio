@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import hero1 from "../pic/hero1.jpg";
+import profile3 from "../pic/hero1.jpg";
 import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
@@ -78,7 +78,7 @@ const Home = () => {
           </div>
           <div className="right">
             <div className="right_img">
-              <img src={hero1} alt="" style={{width: "80%"}}/>
+              <img src={profile3} alt="" style={{width: "80%"}}/>
             </div>
           </div>
         </div>
