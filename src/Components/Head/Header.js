@@ -15,7 +15,7 @@ const Header = () => {
   // Download cv using gopgale drive link...
   function handleDownloadClick() {
     const cvFileUrl =
-      "https://drive.google.com/file/d/1dh_cKbrBo_FBZpE9-gweLz3ZEDOX8AQY/view?usp=drivesdk";
+      "https://drive.google.com/file/d/1I0r_XD9kDp38wRjt1Vj0J_mXCe7n58H4/view?usp=sharing";
 
     // Create a temporary link element to initiate the download
     const link = document.createElement("a");
