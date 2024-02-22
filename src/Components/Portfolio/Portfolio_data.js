@@ -5,7 +5,7 @@ const Portfolio_data = [
     title: "The services provided for collage students only",
     image: "./assets/cms.png",
     des: "The single-page website enables users to choose and describe hostel-life problems, submitting them for resolution. Data is stored on Firebase, and our management efficiently addresses and resolves these issues.",
-    link:""
+    link:"https://cmsui.netlify.app/login"
   },
   {
     id: 2,

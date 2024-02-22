@@ -20,7 +20,6 @@ const Card = (props) => {
         </div>
         <div className="category d_flex">
           <span onClick={toggleModal}>{props.category}</span>
-          
         </div>
         <div className="title">
           <h2 onClick={toggleModal}>{props.title}</h2>
@@ -42,7 +41,8 @@ const Card = (props) => {
               <span>Featured - Design</span>
               <h1>{props.title}</h1>
               <h2>{props.des}</h2>
-              {/* <h3>{props.link}</h3> */}
+              <h3>{props.link}</h3>
+              <button></button>
 
               <div className="button f_flex mtop">
                 {/* <button className="btn_shadow">
