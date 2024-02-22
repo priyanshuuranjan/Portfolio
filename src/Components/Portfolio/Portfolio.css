@@ -58,6 +58,37 @@
   color: black;
 }
 
+/* site buttons */
+
+.btn-shadow {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn-shadow:hover {
+  background-color: #45a049;
+}
+
+.btn-website {
+  margin-bottom: 10px;
+}
+
+.btn-github {
+  margin-bottom: 10px;
+  background-color: #333;
+}
+
+.btn-github:hover {
+  background-color: #000;
+}
+
+
 /*certificates css */
 /* .certificate {
   position: relative;

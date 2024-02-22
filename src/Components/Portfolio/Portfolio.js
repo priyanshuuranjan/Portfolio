@@ -24,6 +24,7 @@ const Portfolio = () => {
                   des={value.des}
                   title={value.title}
                   link={value.link}
+                  github={value.github}
                 />
               );
             })}

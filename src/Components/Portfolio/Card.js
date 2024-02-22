@@ -12,9 +12,10 @@ const Card = (props) => {
   } else {
     document.body.classList.remove("active-modal");
   }
+
   return (
     <>
-      <div className="box btn_shadow ">
+      <div className="box btn_shadow">
         <div className="img">
           <img src={props.image} alt="" onClick={toggleModal} />
         </div>
@@ -41,15 +42,32 @@ const Card = (props) => {
               <span>Featured - Design</span>
               <h1>{props.title}</h1>
               <h2>{props.des}</h2>
-              <h3>{props.link}</h3>
-              <button></button>
-
               <div className="button f_flex mtop">
-                {/* <button className="btn_shadow">
-                  VIEW PROJECT<i class="fas fa-chevron-right"></i>
-                </button> */}
+                {props.link && (
+                  <a
+                    href={props.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-shadow btn-website"
+                  >
+                    View Website
+                  </a>
+                )}
+                {props.github && (
+                  <a
+                    href={props.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-shadow btn-github"
+                  >
+                    GitHub
+                  </a>
+                )}
               </div>
-              <button className="close-modal btn_shadow" onClick={toggleModal}>
+              <button
+                className="close-modal btn_shadow"
+                onClick={toggleModal}
+              >
                 <i class="fas fa-times"></i>
               </button>
             </div>
